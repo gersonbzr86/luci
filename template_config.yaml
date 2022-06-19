@@ -1,0 +1,19 @@
+# copy to config.yaml
+discord_bot_token: 'OTg4MTc0NzIyMTQ5Nzk3OTU4.GenR4O.U_AWMH2BRd-g6MMC12dB5b4KyJKEnTcNnoVz14'
+
+az_tenant_id: '1aa1bdde-2bf3-4bb0-a56e-5cbad609eb8e'
+az_client_id: 'd46d1aa1-03f8-4492-a2c5-3486c5f97386'
+az_client_secret: 'TRP8Q~kkbHw8x1ehqAOfiG5npwShSV12HX3W0cS8'
+az_subscription_id: 'bfd05e89-5f43-43a1-8ade-4062b2bac22c'
+
+channel_id: 000
+
+vms:
+  - server1: 
+      az_resource_group: discordtest_group
+      az_vm: discordtest
+      name: 'discordtest'
+  # - server2: # Control multiple servers...
+  #     az_resource_group: server-2-rg
+  #     az_vm: server-2-vm
+  #     name: 'Server 2 Name'
