@@ -169,5 +169,7 @@ async def on_message(message):
         await command_restart(message, args)
     else:
       await send_help_text(message)
-
+      
+      
+keep_alive()
 discord_client.run(discord_bot_token)
