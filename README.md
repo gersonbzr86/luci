@@ -1,5 +1,5 @@
-# discord-azure-vm-bot
-A Discord bot which can start and restart azure VMs
+# discord-luci-bot-bot
+A luci bot which
 
 ![example](/docs/example.png)
 
