@@ -1,15 +1,13 @@
 import logging
 import yaml
 import shlex
-from webserver import keep_alive
-
-import os
-
-
 
 from azure.identity import ClientSecretCredential
 from azure.mgmt.compute import ComputeManagementClient
 import discord
+from webserver import keep_alive
+
+import os
 
 EYES='👀'
 CHECK='✅'
@@ -169,7 +167,8 @@ async def on_message(message):
         await command_restart(message, args)
     else:
       await send_help_text(message)
-      
+
+
       
 keep_alive()
 discord_client.run(discord_bot_token)
